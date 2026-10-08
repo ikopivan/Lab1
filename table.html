@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Список музыкальных альбомов</title>
+    </head>
+    <body>
+        <h1 align="center">Музыкальные альбомы</h1>
+        <h2>Меню</h2>
+        <ul>
+            <li><a href="main_page.html">Главная страница</a></li>
+            <li><a href="album_page.html">twenty one pilots — Trench</a></li>
+            <li><a href="table.html">Список музыкальных альбомов</a></li>
+        </ul>
+        <hr>
+        <h2>Список музыкальных альбомов</h2>
+        <details>
+            <summary>График</summary>
+            <form>
+                <p><b>Значение по оси OX</b></p>
+                <p><label><input type="radio" name="axis-x" value="artist"> Исполнитель</label></p>
+                <p><label><input type="radio" name="axis-x" value="genre"> Жанр</label></p>
+                <p><label><input type="radio" name="axis-x" value="year"> Год</label></p>
+                <p><b>Значение по оси OY</b></p>
+                <p><label><input type="checkbox" name="axis-y" value="max-tracks"> Максимальное количество композиций</label></p>
+                <p><label><input type="checkbox" name="axis-y" value="min-tracks"> Минимальное количество композиций</label></p>
+                <p><label><input type="checkbox" name="axis-y" value="count"> Количество альбомов</label></p>
+                <p><input type="button" value="Построить"></p>
+            </form>
+            <p>Здесь будет график</p>
+        </details>
+        <details>
+            <summary>Фильтр</summary>
+            <form>
+                <p><label>Название альбома: <input type="text" name="album" size="30"></label></p>
+                <p><label>Исполнитель: <input type="text" name="artist" size="30"></label></p>
+                <p><label>Жанр: <input type="text" name="genre" size="30"></label></p>
+                <p><label>Год: от <input type="text" name="year-from" size="10"></label> <label>до <input type="text" name="year-to" size="10"></label></p>
+                <p><label>Количество композиций: от <input type="text" name="tracks-from" size="10"></label> <label>до <input type="text" name="tracks-to" size="10"></label></p>
+                <p><input type="button" value="Найти"> </p>
+            </form>
+        </details>
+        <details>
+            <summary>Сортировка</summary>
+            <form>
+                <p><label>Первый уровень: <select name="sort-1">
+                            <option>Нет</option>
+                            <option>Название альбома</option>
+                            <option>Исполнитель</option>
+                            <option>Жанр</option>
+                            <option>Год</option>
+                            <option>Количество композиций</option>
+                    </select></label> <label>по убыванию? <input type="checkbox" name="descending-1"></label></p>
+                <p><label>Второй уровень: <select name="sort-2">
+                            <option>Нет</option>
+                            <option>Название альбома</option>
+                            <option>Исполнитель</option>
+                            <option>Жанр</option>
+                            <option>Год</option>
+                            <option>Количество композиций</option>
+                    </select></label> <label>по убыванию? <input type="checkbox" name="descending-2"></label></p>
+                <p><label>Третий уровень: <select name="sort-3">
+                            <option>Нет</option>
+                            <option>Название альбома</option>
+                            <option>Исполнитель</option>
+                            <option>Жанр</option>
+                            <option>Год</option>
+                            <option>Количество композиций</option>
+                    </select></label> <label>по убыванию? <input type="checkbox" name="descending-3"></label></p>
+                <p><input type="button" value="Сортировать"> </p>
+            </form>
+        </details>
+        <hr>
+        <p>В каталоге 60 альбомов. Количество композиций относится к цифровому изданию по ссылке и не включает видеоклипы. Жанры приведены по каталогу Apple Music.</p>
+        <h3>Альбомы любимых исполнителей и похожих артистов</h3>
+        <table border="1" cellpadding="3" cellspacing="0" width="100%">
+            <tr>
+                <th>№</th>
+                <th>Название альбома</th>
+                <th>Исполнитель</th>
+                <th>Жанр</th>
+                <th>Год</th>
+                <th>Количество композиций</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="https://music.apple.com/us/album/vessel/585128397">Vessel</a></td>
+                <td>twenty one pilots</td>
+                <td>Альтернативная музыка</td>
+                <td>2013</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="https://music.apple.com/us/album/blurryface/974485462">Blurryface</a></td>
+                <td>twenty one pilots</td>
+                <td>Альтернативная музыка</td>
+                <td>2015</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="album_page.html">Trench</a></td>
+                <td>twenty one pilots</td>
+                <td>Альтернативная музыка</td>
+                <td>2018</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="https://music.apple.com/us/album/scaled-and-icy/1561836997">Scaled And Icy</a></td>
+                <td>twenty one pilots</td>
+                <td>Альтернативная музыка</td>
+                <td>2021</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="https://music.apple.com/us/album/clancy/1733370881">Clancy</a></td>
+                <td>twenty one pilots</td>
+                <td>Альтернативная музыка</td>
+                <td>2024</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><a href="https://music.apple.com/us/album/breach/1827507396">Breach</a></td>
+                <td>twenty one pilots</td>
+                <td>Альтернативная музыка</td>
+                <td>2025</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><a href="https://music.apple.com/us/album/therapy-session/1440845435">Therapy Session</a></td>
+                <td>NF</td>
+                <td>Хип-хоп</td>
+                <td>2016</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><a href="https://music.apple.com/us/album/perception/1440848910">Perception</a></td>
+                <td>NF</td>
+                <td>Хип-хоп</td>
+                <td>2017</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><a href="https://music.apple.com/us/album/the-search/1470132470">The Search</a></td>
+                <td>NF</td>
+                <td>Хип-хоп</td>
+                <td>2019</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><a href="https://music.apple.com/us/album/hope/1670412644">HOPE</a></td>
+                <td>NF</td>
+                <td>Хип-хоп</td>
+                <td>2023</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><a href="https://music.apple.com/us/album/the-human-condition/1440846987">The Human Condition</a></td>
+                <td>Jon Bellion</td>
+                <td>Поп</td>
+                <td>2016</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td><a href="https://music.apple.com/us/album/glory-sound-prep/1440105804">Glory Sound Prep</a></td>
+                <td>Jon Bellion</td>
+                <td>Поп</td>
+                <td>2018</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td><a href="https://music.apple.com/us/album/good-kid-m-a-a-d-city/1471277623">good kid, m.A.A.d city</a></td>
+                <td>Kendrick Lamar</td>
+                <td>Хип-хоп</td>
+                <td>2012</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td><a href="https://music.apple.com/us/album/to-pimp-a-butterfly/1440871877">To Pimp a Butterfly</a></td>
+                <td>Kendrick Lamar</td>
+                <td>Хип-хоп</td>
+                <td>2015</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td><a href="https://music.apple.com/us/album/damn/1440881722">DAMN.</a></td>
+                <td>Kendrick Lamar</td>
+                <td>Хип-хоп</td>
+                <td>2017</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td><a href="https://music.apple.com/us/album/gnx/1781316864">GNX</a></td>
+                <td>Kendrick Lamar</td>
+                <td>Хип-хоп</td>
+                <td>2024</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td><a href="https://music.apple.com/us/album/%D1%8D%D0%BB%D1%8C%D1%84%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D1%83%D0%BA%D0%BE%D0%BF%D0%B8%D1%81%D1%8C/1625910043">Эльфийская рукопись (с бонусным треком)</a></td>
+                <td>Эпидемия</td>
+                <td>Метал</td>
+                <td>2004</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td><a href="https://music.apple.com/us/album/%D1%81%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D0%B8%D1%89%D0%B5-%D1%8D%D0%BD%D0%B8%D0%B8/1739568287">Сокровище Энии</a></td>
+                <td>Эпидемия</td>
+                <td>Рок</td>
+                <td>2014</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td><a href="https://music.apple.com/us/album/when-we-all-fall-asleep-where-do-we-go/1450695723">WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</a></td>
+                <td>Billie Eilish</td>
+                <td>Альтернативная музыка</td>
+                <td>2019</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><a href="https://music.apple.com/us/album/happier-than-ever/1564530526">Happier Than Ever</a></td>
+                <td>Billie Eilish</td>
+                <td>Альтернативная музыка</td>
+                <td>2021</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td><a href="https://music.apple.com/us/album/hit-me-hard-and-soft/1739659134">HIT ME HARD AND SOFT</a></td>
+                <td>Billie Eilish</td>
+                <td>Альтернативная музыка</td>
+                <td>2024</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td><a href="https://music.apple.com/us/album/low-roar/475538412">Low Roar</a></td>
+                <td>Low Roar</td>
+                <td>Альтернативная музыка</td>
+                <td>2011</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td><a href="https://music.apple.com/us/album/0/905276496">0</a></td>
+                <td>Low Roar</td>
+                <td>Альтернативная музыка</td>
+                <td>2014</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td><a href="https://music.apple.com/us/album/once-in-a-long-long-while/1641207325">Once in a Long, Long While...</a></td>
+                <td>Low Roar</td>
+                <td>Альтернативная музыка</td>
+                <td>2017</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td><a href="https://music.apple.com/us/album/not-all-heroes-wear-capes-deluxe/1441385303">NOT ALL HEROES WEAR CAPES (Deluxe)</a></td>
+                <td>Metro Boomin</td>
+                <td>Хип-хоп</td>
+                <td>2018</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td><a href="https://music.apple.com/us/album/heroes-villains/1657583857">HEROES &amp; VILLAINS</a></td>
+                <td>Metro Boomin</td>
+                <td>Хип-хоп</td>
+                <td>2022</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td><a href="https://music.apple.com/us/album/the-divine-feminine/1147227630">The Divine Feminine</a></td>
+                <td>Mac Miller</td>
+                <td>Hip-Hop</td>
+                <td>2016</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td><a href="https://music.apple.com/us/album/swimming/1408996052">Swimming</a></td>
+                <td>Mac Miller</td>
+                <td>Хип-хоп</td>
+                <td>2018</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td><a href="https://music.apple.com/us/album/circles/1494022962">Circles</a></td>
+                <td>Mac Miller</td>
+                <td>Хип-хоп</td>
+                <td>2020</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td><a href="https://music.apple.com/us/album/starboy/1440870373">Starboy</a></td>
+                <td>The Weeknd</td>
+                <td>R&amp;B / соул</td>
+                <td>2016</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td><a href="https://music.apple.com/us/album/after-hours/1499385848">After Hours</a></td>
+                <td>The Weeknd</td>
+                <td>R&amp;B / соул</td>
+                <td>2020</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td><a href="https://music.apple.com/us/album/dawn-fm/1603164027">Dawn FM</a></td>
+                <td>The Weeknd</td>
+                <td>R&amp;B / соул</td>
+                <td>2022</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td><a href="https://music.apple.com/us/album/parachutes/1122782080">Parachutes</a></td>
+                <td>Coldplay</td>
+                <td>Альтернативная музыка</td>
+                <td>2000</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td><a href="https://music.apple.com/us/album/a-rush-of-blood-to-the-head/1122775993">A Rush of Blood to the Head</a></td>
+                <td>Coldplay</td>
+                <td>Альтернативная музыка</td>
+                <td>2002</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td><a href="https://music.apple.com/us/album/viva-la-vida-or-death-and-all-his-friends/1122773394">Viva La Vida or Death and All His Friends</a></td>
+                <td>Coldplay</td>
+                <td>Альтернативная музыка</td>
+                <td>2008</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td><a href="https://music.apple.com/us/album/innerspeaker/1439752048">InnerSpeaker</a></td>
+                <td>Tame Impala</td>
+                <td>Альтернативная музыка</td>
+                <td>2010</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td><a href="https://music.apple.com/us/album/lonerism/1440825369">Lonerism (с бонусным треком)</a></td>
+                <td>Tame Impala</td>
+                <td>Рок</td>
+                <td>2012</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td><a href="https://music.apple.com/us/album/currents/1440838039">Currents</a></td>
+                <td>Tame Impala</td>
+                <td>Альтернативная музыка</td>
+                <td>2015</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td><a href="https://music.apple.com/us/album/rebel/1818817424">Rebel</a></td>
+                <td>EsDeeKid</td>
+                <td>Rap</td>
+                <td>2025</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td><a href="https://music.apple.com/us/album/twenty-twenty/1476578353">Twenty Twenty</a></td>
+                <td>Djo</td>
+                <td>Альтернативная музыка</td>
+                <td>2019</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td><a href="https://music.apple.com/us/album/decide/1632447652">DECIDE</a></td>
+                <td>Djo</td>
+                <td>Альтернативная музыка</td>
+                <td>2022</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td><a href="https://music.apple.com/us/album/the-crux/1791184860">The Crux</a></td>
+                <td>Djo</td>
+                <td>Альтернативная музыка</td>
+                <td>2025</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td><a href="https://music.apple.com/us/album/forever-phase/1836550966">FOREVER PHASE</a></td>
+                <td>Paul Meany</td>
+                <td>Альтернативная музыка</td>
+                <td>2025</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td><a href="https://music.apple.com/us/album/long-live-a%24ap/581997129">LONG.LIVE.A$AP</a></td>
+                <td>A$AP Rocky</td>
+                <td>Хип-хоп</td>
+                <td>2013</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td><a href="https://music.apple.com/us/album/at-long-last-a%24ap/994721471">AT.LONG.LAST.A$AP</a></td>
+                <td>A$AP Rocky</td>
+                <td>Хип-хоп</td>
+                <td>2015</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td><a href="https://music.apple.com/us/album/testing/1388565682">TESTING</a></td>
+                <td>A$AP Rocky</td>
+                <td>Хип-хоп</td>
+                <td>2018</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td><a href="https://music.apple.com/us/album/i-love-you/635016635">I Love You.</a></td>
+                <td>The Neighbourhood</td>
+                <td>Альтернативная музыка</td>
+                <td>2013</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td><a href="https://music.apple.com/us/album/wiped-out/1030115907">Wiped Out!</a></td>
+                <td>The Neighbourhood</td>
+                <td>Альтернативная музыка</td>
+                <td>2015</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td><a href="https://music.apple.com/us/album/cant-rush-greatness/1792328688">CAN&#x27;T RUSH GREATNESS</a></td>
+                <td>Central Cee</td>
+                <td>Хип-хоп</td>
+                <td>2025</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td><a href="https://music.apple.com/us/album/the-beautiful-letdown-deluxe-version/270003831">The Beautiful Letdown (Deluxe Version)</a></td>
+                <td>Switchfoot</td>
+                <td>Поп</td>
+                <td>2003</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td><a href="https://music.apple.com/us/album/nothing-is-sound/159449531">Nothing Is Sound (с бонусным треком)</a></td>
+                <td>Switchfoot</td>
+                <td>Поп</td>
+                <td>2005</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td><a href="https://music.apple.com/us/album/atlas-year-one/890059578">Atlas: Year One</a></td>
+                <td>Sleeping At Last</td>
+                <td>Альтернативная музыка</td>
+                <td>2014</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td><a href="https://music.apple.com/us/album/atlas-ii/1484386235">Atlas: II</a></td>
+                <td>Sleeping At Last</td>
+                <td>Авторская песня</td>
+                <td>2019</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td><a href="https://music.apple.com/us/album/odd-soul/460487207">Odd Soul</a></td>
+                <td>MUTEMATH</td>
+                <td>Альтернативная музыка</td>
+                <td>2011</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td><a href="https://music.apple.com/us/album/nectar/1724881021">Nectar</a></td>
+                <td>Joji</td>
+                <td>Альтернативная музыка</td>
+                <td>2020</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td><a href="https://music.apple.com/us/album/optimist/1579352655">Optimist</a></td>
+                <td>FINNEAS</td>
+                <td>Альтернативная музыка</td>
+                <td>2021</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td><a href="https://music.apple.com/us/album/man-on-the-moon-the-end-of-day/1443864602">Man On the Moon: The End of Day</a></td>
+                <td>Kid Cudi</td>
+                <td>Хип-хоп</td>
+                <td>2009</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td><a href="https://music.apple.com/us/album/the-golden-age/1440862403">The Golden Age</a></td>
+                <td>Woodkid</td>
+                <td>Альтернативная музыка</td>
+                <td>2013</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>59</td>
+                <td><a href="https://music.apple.com/us/album/all-my-demons-greeting-me-as-a-friend/1771713667">All My Demons Greeting Me as a Friend</a></td>
+                <td>AURORA</td>
+                <td>Инди-рок</td>
+                <td>2016</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td><a href="https://music.apple.com/us/album/nightfall-in-middle-earth-remastered-2007/1463553298">Nightfall in Middle Earth (Remastered 2007)</a></td>
+                <td>Blind Guardian</td>
+                <td>Метал</td>
+                <td>1998</td>
+                <td>23</td>
+            </tr>
+        </table>
+        <p>Названия альбомов ведут на страницы источников. Для Trench открывается подробная страница этого сайта.</p>
+        <p><a href="main_page.html">Вернуться на главную</a></p>
+        <hr>
+        <p>Разработчик: Иван Копылов. Группа: Б9124-09.03.04.</p>
+    </body>
+</html>
